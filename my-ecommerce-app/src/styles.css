@@ -1,0 +1,93 @@
+/* Navigation Bar */
+*{
+  padding: 0%;
+  margin: 0%;
+}
+nav {
+    background: #222;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    /* background: #444; */
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav a:hover {
+    background: #666;
+  }
+  
+  /* Home Page */
+  .home-container {
+    text-align: center;
+    padding: 50px;
+    background-image: url("./Assets/Home%20Bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 100vh;
+    
+  }
+  
+  .home-container h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-family: cursive;
+    color: black;
+    background-color: yellow;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 600px;
+
+  }
+  
+  .home-container p {
+    font-size: 18px;
+    color: black;
+    text-shadow: #005f7f;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+
+  }
+  
+  .home-container .explore-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #008CBA;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 200px;
+  }
+  
+  .home-container .explore-btn:hover {
+    background: #005f7f;
+  }
+  
