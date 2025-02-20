@@ -5,8 +5,8 @@ This Application allows user to register,login,browse the products,add the produ
 Installation Steps:
 
 1.Clone the Repository:
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/kartheekreddy160/E-commerce
+cd E-commerce 
 
 2.Set up Frontend:
 Navigate to the Frontend Directory:
