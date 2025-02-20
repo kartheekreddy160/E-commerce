@@ -4,18 +4,19 @@ This Application allows user to register,login,browse the products,add the produ
 
 Installation Steps:
 
-Clone the Repository
+1.Clone the Repository:
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-///////////////////////////
-Set up Frontend
+
+2.Set up Frontend:
 Navigate to the Frontend Directory:
 cd frontend
 npm install
 npm start
 The React app will start at http://localhost:3000
-/////////////////////////
-Set Up Environment Variables
+
+
+3.Set Up Environment Variables
 Create a .env file in the backend folder and add:
 PORT=5000
 JWT_SECRET=your_secret_key
@@ -23,13 +24,14 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=ecommerce_db
-///////////////////////////
-Start the Backend Server
+
+
+4.Start the Backend Server:
 node server.js
 The backend will run at http://localhost:5000
-/////////////////////////////
 
- Features
+
+Features
 ✅ User Authentication (Signup & Login)
 ✅ Browse Products
 ✅ Add to Cart & Checkout
